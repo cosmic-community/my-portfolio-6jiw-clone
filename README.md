@@ -22,7 +22,7 @@ A modern, fully responsive developer portfolio built with Next.js 16 and [Cosmic
 
 Want to create your own version of this project with all the content and structure? Clone this Cosmic bucket and code repository to get started instantly:
 
-[![Clone this Project](https://img.shields.io/badge/Clone%20this%20Project-29abe2?style=for-the-badge&logo=cosmic&logoColor=white)](https://app.cosmicjs.com/projects/new?clone_bucket=6a65baf69c05ffa1ada030ff&clone_repository=6a65bd6c9c05ffa1ada03175)
+[![Clone this Project](https://img.shields.io/badge/Clone%20this%20Project-29abe2?style=for-the-badge&logo=cosmic&logoColor=white)](https://app.cosmicjs.com/projects/new?clone_bucket=6ae6e7a85b93710bce4e18a3&clone_repository=6a65bd6c9c05ffa1ada03175)
 
 ## Prompts
 
