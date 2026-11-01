@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-950 font-sans text-slate-200 antialiased;
+  }
+
+  ::selection {
+    @apply bg-accent-500/40 text-white;
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-accent-400 ring-offset-2 ring-offset-slate-950;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-content px-5 sm:px-8;
+  }
+
+  .surface {
+    @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent-300 via-fuchsia-300 to-cyan-300 bg-clip-text text-transparent;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply btn bg-gradient-to-r from-accent-500 to-fuchsia-500 text-white shadow-lg shadow-accent-500/25 hover:from-accent-400 hover:to-fuchsia-400 hover:shadow-accent-500/40;
+  }
+
+  .btn-ghost {
+    @apply btn border border-white/15 bg-white/5 text-slate-100 hover:border-white/30 hover:bg-white/10;
+  }
+
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.25em] text-accent-300;
+  }
+
+  .grid-glow {
+    background-image: radial-gradient(
+        circle at 15% 10%,
+        rgba(99, 102, 241, 0.22),
+        transparent 45%
+      ),
+      radial-gradient(circle at 85% 5%, rgba(217, 70, 239, 0.16), transparent 45%),
+      radial-gradient(circle at 50% 95%, rgba(34, 211, 238, 0.12), transparent 50%);
+  }
+}
